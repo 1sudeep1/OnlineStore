@@ -1,0 +1,45 @@
+.home, .details, .search{
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+.card {
+    overflow: hidden;
+
+    .card-img-top {
+        width: 50%;
+        margin-top: 10px;
+        margin-left: 23%;
+    }
+
+    .card-text {
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        /* start showing ellipsis when 3rd line is reached */
+        white-space: pre-wrap;
+        /* let the text wrap preserving spaces */
+    }
+}
+
+a {
+    color: #000 !important;
+    text-decoration: none !important;
+}
+
+@media (max-width:535px) {
+    .heading {
+        text-align: center;
+    }
+
+    .card {
+        margin-left: 10%;
+    }
+
+    .rf{
+        text-align: center;
+    }
+    .lf{
+        text-align: center;
+    }
+}
